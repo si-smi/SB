@@ -5,9 +5,9 @@ The purpose of is repository is to contain a PowerShell script that retrieves th
 **URL Changes**
 
 As URLs are changed and webhooks possibly requiring updating, follow the below process to find the latest updates required:
-statusUrl: Check the URL https://opsgenie.status.atlassian.com/api to see if the API endpoint has changed
-incidentsUrl: Check the URL https://opsgenie.status.atlassian.com/api to see if the API endpoint has changed
-slackWebhookUrl: Follow the process at the URL https://api.slack.com/messaging/webhooks to check if the webhook is still valid and if requried create a new one
+* statusUrl: Check the URL https://opsgenie.status.atlassian.com/api to see if the API endpoint has changed
+* incidentsUrl: Check the URL https://opsgenie.status.atlassian.com/api to see if the API endpoint has changed
+* slackWebhookUrl: Follow the process at the URL https://api.slack.com/messaging/webhooks to check if the webhook is still valid and if requried create a new one
 
 **Versioing**
 
