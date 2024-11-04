@@ -6,6 +6,8 @@ $slackWebhookUrl = "https://hooks.slack.com/services/T07Q0STUR98/B07PY28TRTP/8Gz
 # Get the current timestamp
 $timestamp = (Get-Date).ToString("dd-MM-yyyy HH:mm")
 
+#--------------
+
 # Get the service status using the invoke-webrequest get so error handling can be coded in future
 # Convert from JSON to a custom PShell object to work with
 $ status = (Invoke-WebRequest -Uri $statusUrl -Method Get).Content | ConvertFrom-Json
